@@ -29,6 +29,13 @@ Build the latest MIRACL image using the installation script we provide:
 
 Troubleshooting the ```./install.sh``` command:
 
+1. In order for the ```./install.sh``` script to work, Docker should NOT be used with ```sudo```. Our script checks and exits if it is being run with ```sudo``` priviledges. The reason for this behavior is that the installation script creates a user in the Docker container that matches the ```uid``` and ```gid``` of the host user which is required correct X11 forwarding. This user should NOT be ```root``` which is the case when Docker commands are executed with ```sudo```. For more information on how to add a docker user to use Docker without ```sudo``` visit the official Docker documentation.
+
+2. Make sure that the script can be executed. If it can’t and you are the owner of the file, use ```chmod u+x install.sh``` to make it executable. Prefix the chmod command with ```sudo``` if you are not the owner of the file or change permissions for ```g``` and/or ```o```.
+
+
+
+
 
 
 
