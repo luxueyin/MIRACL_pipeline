@@ -105,6 +105,8 @@ download_sample_data
 
 For our purposes, we have downloaded Mode 2 data and retrived the entire file after the zip file was done downloading
 
+## Step 6: Data analysis
+
 
 
 
