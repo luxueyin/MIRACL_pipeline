@@ -1,0 +1,11 @@
+# Download sample data to test MIRACL pipeline
+
+To test the MIRACL pipeline, download the sample data:
+```
+docker exec -it <CONTAINER_NAME> bash
+cd <WHERE YOU WANT TO DOWNLOAD DATA>
+download_sample_data
+```
+
+For our purposes, we have downloaded Mode 2 data and retrived the entire file after the zip file was done downloading.
+
