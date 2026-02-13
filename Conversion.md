@@ -23,7 +23,7 @@ Required arguments:
       -c  [ ...], --center  [ ...]
                             Nii center (default: 0,0,0 ) corresponding to Allen atlas nii template
       -dz , --downzdim      Down-sample in z dimension, binary argument, (default: 1) => yes
-      -pd , --prevdown      Previous down-sample ratio, if already downs-sampled
+      -pd , --prevdown      Previous down-sample ratio, if already downsampled (default: 1) => not downsampled
       -pct, --percentile_thr Percentile value for thresholding extreme values (default: 0)
       -h, --help            Show this help message and exit
 ```
