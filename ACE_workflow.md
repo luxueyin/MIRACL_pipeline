@@ -132,10 +132,8 @@ Use -hv or --help_verbose flag for more verbose help
 ## Mode 1: Running ACE for 2 groups (not troubleshooted yet)
 
 | Flag | Parameter | Type | Description |
-|------|-----------|------|-------------|
-| -c, --control | CONTROL_BASE_DIR, | (str, str) | FIRST: path to base control directory; |
-| | CONTROL_TIFF_DIR_EXAMPLE | | SECOND: example path to control subject tiff directory |
-|------|-----------|------|-------------|
+|:-----|:----------|:-----|:------------|
+| -c, --control | CONTROL_BASE_DIR,<br> CONTROL_TIFF_DIR_EXAMPLE | (str, str) | FIRST: path to base control directory; <br> SECOND: example path to control subject tiff directory |
 
 
 -t, --treated
