@@ -122,11 +122,11 @@ For our purposes, we have downloaded Mode 2 data and retrived the entire file af
 
 AI-based Cartography of Ensembles (ACE) pipeline highlights:
 
-- 1. Cutting-edge vision transformer and CNN-based DL architectures trained on very large LSFM datasets (refer to example section) to map brain-wide local/laminar neuronal activity.
-- 2. Optimized cluster-wise statistical analysis with a threshold-free enhancement approach to chart subpopulation-specific effects at the laminar and local level, without restricting the analysis to atlas-defined regions (refer to example section).
-- 3. Modules for providing DL model uncertainty estimates and fine-tuning.
-- 4. Interface with MIRACL registration.
-- 5. Ability to map the connectivity between clusters of activations.
+1. Cutting-edge vision transformer and CNN-based DL architectures trained on very large LSFM datasets (refer to example section) to map brain-wide local/laminar neuronal activity.
+2. Optimized cluster-wise statistical analysis with a threshold-free enhancement approach to chart subpopulation-specific effects at the laminar and local level, without restricting the analysis to atlas-defined regions (refer to example section).
+3. Modules for providing DL model uncertainty estimates and fine-tuning.
+4. Interface with MIRACL registration.
+5. Ability to map the connectivity between clusters of activations.
 
 
 
