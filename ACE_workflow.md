@@ -127,7 +127,94 @@ useful/important arguments:
 
 Use -hv or --help_verbose flag for more verbose help
 ```
-Minimum requirement to run the ACE workflow
+# Minimum requirement to run the ACE workflow
+
+## Mode 1: Running ACE for 2 groups (not troubleshooted yet)
+
+|      Flag    |  Parameter  | Type | Description|
+|--------------|-------------|-------------------|--------------------|
+|-c, --control |
+
+CONTROL_BASE_DIR, CONTROL_TIFF_DIR_EXAMPLE
+
+(str, str)
+
+FIRST: path to base control directory; SECOND: example path to control subject tiff directory
+
+-t, --treated
+
+TREATED_BASE_DIR, TREATED_TIFF_DIR_EXAMPLE
+
+(str, str)
+
+FIRST: path to base treated directory; SECOND: example path to treated subject tiff directory
+
+-sam, --sa_model_type
+
+{unet,unetr,ensemble}
+
+str
+
+model architecture
+
+-sao, --sa_output_folder
+
+SA_OUTPUT_FOLDER
+
+str
+
+path to output file folder
+
+-sar, --sa_resolution
+
+X-res Y-res Z-res
+
+(str, str, str)
+
+voxel size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
