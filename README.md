@@ -1,6 +1,19 @@
 # MIRACL_pipeline
 Step-by-step documentation of the MIRACL pipeline setup on our local machine. Please refer to the pipeline published by the original Authors for more details: https://miracl.readthedocs.io/en/latest/index.html
 
+## Command Cheatsheet
+Find out where you are: ```pwd```
+Find out what user account you are currently in: ```whoami```
+Go back to home directory: ```cd ~```
+Go back one directory: ```cd ..```
+Go into a directory: ```cd [folder name]```
+Show list of items inside current directory: ```ls```
+
+To make a new folder: ```mkdir [folder name]```
+To delete a directory: ```rm -r [folder name]```
+To delete a file: ``` rm [file name]```
+
+
 ## Step 1: Downloading Docker and Ubuntu
 
 We will first download Docker Desktop from the Microsoft Store if the App was not already available. The version of Docker currently used is v29.1.5. By default, Docker Desktop is installed at C:\Program Files\Docker\Docker.
@@ -103,9 +116,17 @@ cd <WHERE YOU WANT TO DOWNLOAD DATA>
 download_sample_data
 ```
 
-For our purposes, we have downloaded Mode 2 data and retrived the entire file after the zip file was done downloading
+For our purposes, we have downloaded Mode 2 data and retrived the entire file after the zip file was done downloading.
 
-## Step 6: Data analysis
+## Data analyses (Segementation and Registration Combined)
+
+AI-based Cartography of Ensembles (ACE) pipeline highlights:
+
+> 1. Cutting-edge vision transformer and CNN-based DL architectures trained on very large LSFM datasets (refer to example section) to map brain-wide local/laminar neuronal activity.
+> 2. Optimized cluster-wise statistical analysis with a threshold-free enhancement approach to chart subpopulation-specific effects at the laminar and local level, without restricting the analysis to atlas-defined regions (refer to example section).
+> 3. Modules for providing DL model uncertainty estimates and fine-tuning.
+> 4. Interface with MIRACL registration.
+> 5. Ability to map the connectivity between clusters of activations.
 
 
 
