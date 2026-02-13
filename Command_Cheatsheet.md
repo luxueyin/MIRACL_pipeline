@@ -18,3 +18,5 @@ To delete a directory: ```rm -r [folder name]```
 
 To delete a file: ``` rm [file name]```
 
+rename a directory: ```mv [old folder name] [new folder name]```
+
